@@ -1,5 +1,3 @@
--- Script
-loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/worldcuuuup/main/Endless%20Doors.txt"))()
--- Seek
-loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/worldcuuuup/main/Custom%20SeekEyes%20for%20Endless%20Doors.txt"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/worldcuuuup/main/Custom%20SeekModel%20for%20Endless%20Doors.txt"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/worldcuuuup/main/Script.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/worldcuuuup/main/seekeye.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/worldcuuuup/main/seekmodel.lua"))()
