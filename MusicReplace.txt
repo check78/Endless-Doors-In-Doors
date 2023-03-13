@@ -1,0 +1,83 @@
+
+function ReplaceAudGit(GithubSnd,SoundName)
+	local url=GithubSnd
+	if not isfile(SoundName..".mp3") then
+		writefile(SoundName..".mp3", game:HttpGet(url))
+	end
+	return (getcustomasset or getsynasset)(SoundName..".mp3")
+end
+local a = game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.Health.Music
+a.Blue.SoundId = ReplaceAudGit("GithubLink?raw=true","AudioName")
+a.Blue.Volume = 5
+function ReplaceAudGit(GithubSnd,SoundName)
+	local url=GithubSnd
+	if not isfile(SoundName..".mp3") then
+		writefile(SoundName..".mp3", game:HttpGet(url))
+	end
+	return (getcustomasset or getsynasset)(SoundName..".mp3")
+end
+a.Blue.End.SoundId = ReplaceAudGit("GithubLink?raw=true","AudioName")
+a.Blue.End.Volume = 5
+
+
+function ReplaceAudGit(GithubSnd,SoundName)
+	local url=GithubSnd
+	if not isfile(SoundName..".mp3") then
+		writefile(SoundName..".mp3", game:HttpGet(url))
+	end
+	return (getcustomasset or getsynasset)(SoundName..".mp3")
+end
+workspace.Ambience_Seek.SoundId = ReplaceAudGit("GithubLink?raw=true","AudioName")
+workspace.Ambience_Seek.Volume = 0.5
+
+function ReplaceAudGit(GithubSnd,SoundName)
+	local url=GithubSnd
+	if not isfile(SoundName..".mp3") then
+		writefile(SoundName..".mp3", game:HttpGet(url))
+	end
+	return (getcustomasset or getsynasset)(SoundName..".mp3")
+end
+workspace.Ambience_Figure.SoundId = ReplaceAudGit("GithubLink?raw=true","AudioName")
+workspace.Ambience_Figure.Volume = 0.2
+
+function ReplaceAudGit(GithubSnd,SoundName)
+	local url=GithubSnd
+	if not isfile(SoundName..".mp3") then
+		writefile(SoundName..".mp3", game:HttpGet(url))
+	end
+	return (getcustomasset or getsynasset)(SoundName..".mp3")
+end
+workspace.Ambience_FigureEnd.SoundId = ReplaceAudGit("GithubLink?raw=true","AudioName")
+workspace.Ambience_FigureEnd.Volume = 0.2
+
+function ReplaceAudGit(GithubSnd,SoundName)
+	local url=GithubSnd
+	if not isfile(SoundName..".mp3") then
+		writefile(SoundName..".mp3", game:HttpGet(url))
+	end
+	return (getcustomasset or getsynasset)(SoundName..".mp3")
+end
+workspace.Ambience_FigureStart.SoundId = ReplaceAudGit("GithubLink?raw=true","AudioName")
+workspace.Ambience_FigureStart.Volume = 0.2
+
+
+function ReplaceAudGit(GithubSnd,SoundName)
+	local url=GithubSnd
+	if not isfile(SoundName..".mp3") then
+		writefile(SoundName..".mp3", game:HttpGet(url))
+	end
+	return (getcustomasset or getsynasset)(SoundName..".mp3")
+end
+local b = game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.Health
+b.Death.SoundId = ReplaceAudGit("GithubLink?raw=true","AudioName")
+b.Death.Pitch = 1
+b.Death.TimePosition = 0.55
+
+-- GuidingLight Music
+coroutine.wrap(function()
+    while true do
+        wait(0.0005)
+        a.Blue.Volume = 5
+        a.Blue.End.Volume = 5
+    end
+end)()
